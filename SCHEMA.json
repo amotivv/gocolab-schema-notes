@@ -1,34 +1,142 @@
 {
-  "name": "nonprofits",
-  "fields": [
-    {"name": "name", "type": "string"},
-    {"name": "causes", "type": "string[]", "facet": true},
-    {"name": "city", "type": "string"},
-    {"name": "state", "type": "string"},
-    {"name": "county", "type": "string"},
-    {"name": "zip", "type": "string"},
-    {"name": "lat", "type": "string"},
-    {"name": "lon", "type": "string"},
-    {"name": "people", "type": "string[]"},
-    {"name": "partners", "type": "string[]"},
-    {"name": "years_in_existence", "type": "int64"},
-    {"name": "counties_served", "type": "string[]"},
-    {"name": "school_district", "type": "string"},
-    {"name": "affiliations", "type": "string[]", "facet": true},
-    {"name": "collaboration_interests", "type": "string[]"},
-    {"name": "social_media_handles", "type": "object"},
-    {"name": "website_address", "type": "string"},
-    {"name": "email_addresses", "type": "string[]", "token_separators": ["+", "-", "@", "."]},
-    {"name": "languages", "type": "string[]", "facet": true},
-    {"name": "funding_sources", "type": "string[]", "facet": true},
-    {"name": "program_areas", "type": "string[]", "facet": true},
-    {"name": "target_demographics", "type": "string[]"},
-    {"name": "services_offered", "type": "string[]"},
-    {"name": "geopoint", "type": "float[][]"},
-    {"name": "alternate_names", "type": "string[]"},
-    {"name": "website_addresses", "type": "string[]", "token_separators": [":", "/", "."]},
-    {"name": "date_founded", "type": "int64"},
-    {"name": "ein", "type": "string[]", "token_separators": ["-"]},
-    {"name": "keywords", "type": "string[]"}
-  ]
+    "name": "nonprofits",
+    "enable_nested_fields": true,
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "causes",
+            "type": "string[]",
+            "facet": true
+        },
+        {
+            "name": "city",
+            "type": "string"
+        },
+        {
+            "name": "state",
+            "type": "string"
+        },
+        {
+            "name": "county",
+            "type": "string"
+        },
+        {
+            "name": "zip",
+            "type": "string"
+        },
+        {
+            "name": "lat",
+            "type": "string"
+        },
+        {
+            "name": "lon",
+            "type": "string"
+        },
+        {
+            "name": "people",
+            "type": "string[]"
+        },
+        {
+            "name": "partners",
+            "type": "string[]"
+        },
+        {
+            "name": "years_in_existence",
+            "type": "int64"
+        },
+        {
+            "name": "counties_served",
+            "type": "string[]"
+        },
+        {
+            "name": "school_district",
+            "type": "string"
+        },
+        {
+            "name": "affiliations",
+            "type": "string[]",
+            "facet": true
+        },
+        {
+            "name": "collaboration_interests",
+            "type": "string[]"
+        },
+        {
+            "name": "social_media_handles",
+            "type": "object"
+        },
+        {
+            "name": "website_address",
+            "type": "string"
+        },
+        {
+            "name": "email_addresses",
+            "type": "string[]",
+            "token_separators": [
+                "+",
+                "-",
+                "@",
+                "."
+            ]
+        },
+        {
+            "name": "languages",
+            "type": "string[]",
+            "facet": true
+        },
+        {
+            "name": "funding_sources",
+            "type": "string[]",
+            "facet": true
+        },
+        {
+            "name": "program_areas",
+            "type": "string[]",
+            "facet": true
+        },
+        {
+            "name": "target_demographics",
+            "type": "string[]"
+        },
+        {
+            "name": "services_offered",
+            "type": "string[]"
+        },
+        {
+            "name": "geopoint",
+            "type": "geopoint[]"
+        },
+        {
+            "name": "alternate_names",
+            "type": "string[]"
+        },
+        {
+            "name": "website_addresses",
+            "type": "string[]",
+            "token_separators": [
+                ":",
+                "/",
+                "."
+            ]
+        },
+        {
+            "name": "date_founded",
+            "type": "int64"
+        },
+        {
+            "name": "ein",
+            "type": "string[]",
+            "token_separators": [
+                "-"
+            ]
+        },
+        {
+            "name": "keywords",
+            "type": "string[]",
+            "facet": true
+        }
+    ]
 }
