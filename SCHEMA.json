@@ -69,10 +69,6 @@
             "type": "object"
         },
         {
-            "name": "website_address",
-            "type": "string"
-        },
-        {
             "name": "email_addresses",
             "type": "string[]",
             "token_separators": [
