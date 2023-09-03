@@ -1,8 +1,8 @@
 {
   "name": "nonprofits",
-  "default_sorting_field": "Name",
+  "default_sorting_field": "name",
   "fields": [
-    {"name": "Name", "type": "string"},
+    {"name": "name", "type": "string"},
     {"name": "causes", "type": "string[]", "facet": true},
     {"name": "city", "type": "string"},
     {"name": "state", "type": "string"},
@@ -29,6 +29,7 @@
     {"name": "alternate_names", "type": "string[]"},
     {"name": "website_addresses", "type": "string[]", "token_separators": [":", "/", "."]},
     {"name": "date_founded", "type": "int64"},
-    {"name": "EIN", "type": "string[]", "token_separators": ["-"]}
+    {"name": "ein", "type": "string[]", "token_separators": ["-"]},
+    {"name": "keywords", "type": "string[]", "facet": true}
   ]
 }
