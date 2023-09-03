@@ -30,6 +30,6 @@
     {"name": "website_addresses", "type": "string[]", "token_separators": [":", "/", "."]},
     {"name": "date_founded", "type": "int64"},
     {"name": "ein", "type": "string[]", "token_separators": ["-"]},
-    {"name": "keywords", "type": "string[]", "facet": true}
+    {"name": "keywords", "type": "string[]"}
   ]
 }
